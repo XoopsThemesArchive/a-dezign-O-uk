@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="Adezign <www.adezign.nl>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="tdupleft"><img src="<{$xoops_imageurl}>images/adezign-O-1.gif" width="313" height="12"></td>
+    <td align="center" class="tdupcenter"><img src="<{$xoops_imageurl}>images/adezign-O-2.gif"></td>
+    <td align="right" class="tdupright"><img src="<{$xoops_imageurl}>images/adezign-O-3.gif" width="267" height="12"></td>
+  </tr>
+  <tr>
+    <td width="313" height="11"><img src="<{$xoops_imageurl}>images/adezign-O-4.gif" width="313" height="11"></td>
+    <td align="center" class="tdupcenter2"><img src="<{$xoops_imageurl}>images/adezign-O-5.gif"></td>
+    <td width="267" height="11"><img src="<{$xoops_imageurl}>images/adezign-O-6.gif" width="267" height="11"></td>
+  </tr>
+  <tr>
+    <td width="313" height="73"><img src="<{$xoops_imageurl}>images/adezign-O-7.gif" width="313" height="73"></td>
+    <td align="center" class="tdupcenter3"><img src="<{$xoops_imageurl}>images/adezign-O-8.gif"></td>
+    <td width="267" height="73" background="<{$xoops_imageurl}>images/adezign-O-9b.gif"><form style="margin-top: 35px;" action="<{$xoops_url}>/user.php" method="post">&nbsp;&nbsp;&nbsp;<input type="text" name="uname" size="10" value="" />&nbsp;&nbsp;&nbsp;<input type="password" name="pass" size="10" /><input type="hidden" name="xoops_redirect" value="/" />&nbsp;&nbsp;&nbsp;<input type="hidden" name="op" value="login" /><input type="submit" value="login" />&nbsp;&nbsp;
+  </td></form></td>
+  </tr>
+  <tr>
+    <td width="313" height="11"><img src="<{$xoops_imageurl}>images/adezign-O-10.gif" width="313" height="11"></td>
+    <td width="100%" height="11" background="<{$xoops_imageurl}>images/adezign-O-11.gif"></td>
+    <td width="267" height="11" align="top"><img src="<{$xoops_imageurl}>images/adezign-O-12.gif" width="267" height="11"></td>
+  </tr>
+  <tr>
+    <td width="313" height="22"><img src="<{$xoops_imageurl}>images/adezign-O-13.gif" width="313" height="22"></td>
+    <td width="100%" height="22" background="<{$xoops_imageurl}>images/adezign-O-14.gif"></td>
+    <td class="logout" width="267" height="22" background="<{$xoops_imageurl}>images/adezign-O-15.gif" width="267" height="22">Hello <{$xoops_uname}>!&nbsp;&nbsp; &gt;&gt; <a href="<{$xoops_url}>/user.php?op=logout">Logout</a></td>
+  </tr>
+  <tr>
+    <td width="313" height="26" background="<{$xoops_imageurl}>images/adezign-O-16.gif" width="313" height="26"><form style="margin-left: 50px; margin-bottom: 0px" action="<{$xoops_url}>/search.php" method="post"> 
+&nbsp;&nbsp; 
+              <input class="button" type="text" name="query" size="20" /> 
+              <input type="hidden" name="action" value="results" />&nbsp;&nbsp;&nbsp; 
+              <input name="submit" type="submit" value="search" /> 
+            </form></td>
+    <td width="100%" height="26" background="<{$xoops_imageurl}>images/adezign-O-17.gif"></td>
+    <td width="267" height="26"><img src="<{$xoops_imageurl}>images/adezign-O-18.gif" width="267" height="26" usemap="#Map"></td>
+  </tr>
+</table>
+<table width="100%"  border="0" align="center" cellpadding="2" cellspacing="0">
+  <tr>
+    <td align="center" class="left">
+      <!-- Start left blocks loop -->
+      <{foreach item=block from=$xoops_lblocks}> <{include file="a-dezign-O-uk/theme_blockleft.html"}> <{/foreach}>
+      <!-- End left blocks loop -->
+    </td>
+    <td id="centerLcolumn2" valign="top">
+    	<!-- Display center blocks if any -->
+      <{if $xoops_showcblock == 1}>
+      <!-- Start center-left blocks loop -->
+      <table cellspacing="6">
+        <tr>
+          <td id="centerCcolumn" colspan="2" valign="top">
+            <!-- Start center-center blocks loop -->
+            <{foreach item=block from=$xoops_ccblocks}> <{include file="a-dezign-O-uk/theme_blockcenter_c.html"}> <{/foreach}>
+            <!-- End center-center blocks loop -->
+          </td>
+        </tr>
+        <tr>
+          <td id="centerLcolumn" valign="top">
+            <!-- Start center-left blocks loop -->
+            <{foreach item=block from=$xoops_clblocks}> <{include file="a-dezign-O-uk/theme_blockcenter_l.html"}> <{/foreach}>
+            <!-- End center-left blocks loop -->
+          </td>
+          <td id="centerRcolumn" valign="top">
+            <!-- Start center-right blocks loop -->
+            <{foreach item=block from=$xoops_crblocks}> <{include file="a-dezign-O-uk/theme_blockcenter_r.html"}> <{/foreach}>
+            <!-- End center-right blocks loop -->
+          </td>
+        </tr>
+      </table>
+      <{/if}>
+        <!-- End display center blocks -->
+        <div id="content">
+        <{$xoops_contents}>
+        </div>
+      </td>
+      <{if $xoops_showrblock == 1}>
+      <td class="left">
+        <!-- Start right blocks loop -->
+        <{foreach item=block from=$xoops_rblocks}>
+          <{include file="a-dezign-O-uk/theme_blockright.html"}>
+        <{/foreach}>
+        <!-- End right blocks loop -->
+      </td>
+    <{/if}>
+  </tr>
+</table>
+<table width="100%"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="<{$xoops_imageurl}>images/b-1b.gif" width="200" height="10" /></td>
+    <td class="btmcentertop"></td>
+    <td><img src="<{$xoops_imageurl}>images/b-7b.gif" width="200" height="10" /></td>
+  </tr>
+  <tr>
+    <td><img src="<{$xoops_imageurl}>images/b-2b.gif" width="200" height="25" /></td>
+    <td class="copy">COPYRIGHT &copy; 1996 - 2005  ADEZIGN.NL </td>
+    <td><img src="<{$xoops_imageurl}>images/b-8b.gif" width="200" height="25" /></td>
+  </tr>
+  <tr>
+    <td width="200" class="bottomleft"><img src="<{$xoops_imageurl}>images/b-3b.gif" width="200" height="10" /></td>
+    <td class="btmcenter"></td>
+    <td width="200" class="bottomright"><img src="<{$xoops_imageurl}>images/b-9b.gif" width="200" height="10" /></td>
+  </tr>
+</table>
+<map name="Map" id="Map">
+  <area shape="rect" alt="Naar de index" coords="2,2,49,24" href="<{$xoops_url}>" /> <!-- this is the home button. use <{$xoops_url}>/modules/etcetc as link option -->
+  <area shape="rect" alt="Bekijk het nieuws" coords="52,2,93,24" href="<{$xoops_url}>/modules/news/" /> <!-- this is the news button. use <{$xoops_url}>/modules/etcetc as link option -->
+  <area shape="rect" alt="Neem contact met ons op" coords="95,2,163,24" href="<{$xoops_url}>/modules/contact/" /> <!-- this is the contact button. use <{$xoops_url}>/modules/etcetc as link option -->
+  <area shape="rect" alt="Bekijk het forum" coords="165,2,214,24" href="<{$xoops_url}>/modules/newbb/" /> <!-- this is the forum button. use <{$xoops_url}>/modules/etcetc as link option -->
+  <area shape="rect" alt="Bekijk de vraag en antwoord sectie" coords="216,2,264,24" href="<{$xoops_url}>/modules/xoopsfaq/" /> <!-- this is the faq/help button. use <{$xoops_url}>/modules/etcetc as link option -->
+</map>
+</body>
+</html>
